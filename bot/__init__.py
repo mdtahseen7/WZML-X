@@ -1,3 +1,11 @@
+
+import asyncio
+
+loop = asyncio.new_event_loop()
+asyncio.set_event_loop(loop)
+
+# existing imports
+from pyrogram import Client
 #!/usr/bin/env python3
 from tzlocal import get_localzone
 from pytz import timezone
